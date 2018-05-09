@@ -1,6 +1,6 @@
 {
-  "name": "watermarker",
-  "version": "1.0.0",
+  "name": "screenwatermark",
+  "version": "1.0.2",
   "description": "A waterMarker tool that support color canvasWidth/height totate text",
   "main": "index.js",
   "scripts": {

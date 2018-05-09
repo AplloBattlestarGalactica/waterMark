@@ -4,7 +4,7 @@
 ## HOT TO USE 如何使用
 
 * npm install watermarker --save
-* import WaterMarker from 'WaterMarker'
+* import WaterMarker from 'screenwatermark'
 * const WaterMarker = new WaterMarker()
 * WaterMarker.drawCanvas({
             font: '10px Microsoft YaHei',//字体 canvas font
