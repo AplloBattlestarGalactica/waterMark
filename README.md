@@ -3,7 +3,7 @@
 
 ## HOT TO USE 如何使用
 
-* npm install watermarker --save
+* npm install screenwatermark  --save
 * import WaterMarker from 'screenwatermark'
 * const WaterMarker = new WaterMarker()
 * WaterMarker.drawCanvas({
