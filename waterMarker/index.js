@@ -17,7 +17,8 @@ class WaterMarker {
 
         this.divContainer.appendChild(this.waterMarkercanvas);
         this.divContainer.id = 'divContainer'
-        this.divContainer.style.height = window.innerHeight;
+        this.divContainer.style.height = window.innerHeight+'px';
+        this.divContainer.style.width = window.innerWidth+'px';
         this.backgroundUrl = null;
     }
 
