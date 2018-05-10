@@ -52,11 +52,12 @@ class WaterMarker {
         let config = { attributes: true, childList: true, characterData: true };
 
         canvasObserver.observe(document.querySelector('#divContainer').parentNode, { childList: true });
+
+        let configChild = { attributes: true, childList: true, characterData: true };
+        canvasObserverChild.observe(document.querySelector('#divContainer'), configChild);
         let canvasObserverChild = new MutationObserver(mo => {
             this.drawCanvas()
         })
-        let configChild = { attributes: true, childList: true, characterData: true };
-        canvasObserverChild.observe(document.querySelector('#divContainer'), configChild)
     }
 }
 export default WaterMarker;
