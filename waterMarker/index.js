@@ -54,10 +54,10 @@ class WaterMarker {
         canvasObserver.observe(document.querySelector('#divContainer').parentNode, { childList: true });
 
         let configChild = { attributes: true, childList: true, characterData: true };
-        canvasObserverChild.observe(document.querySelector('#divContainer'), configChild);
         let canvasObserverChild = new MutationObserver(mo => {
             this.drawCanvas()
         })
+        canvasObserverChild.observe(document.querySelector('#divContainer'), configChild);
     }
 }
 export default WaterMarker;
